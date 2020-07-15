@@ -7,7 +7,7 @@ public class EmployeeTest
 {
    public static void main(String[] args)
    {
-      var staff = new Employee[3];
+      Employee[] staff = new Employee[3];
 
       staff[0] = new Employee("Harry Hacker", 35000);
       staff[1] = new Employee("Carl Cracker", 75000);
