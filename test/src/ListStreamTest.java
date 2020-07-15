@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 /**
  * Create by peng on 2020/7/14.
  */
-public class ListTest {
+public class ListStreamTest {
     public static void main(String[] args) {
         List<String> parameterList = Arrays.asList("1","2","2","3","3","4","4","5","6","7","8");
         List<String> resultList = parameterList.stream().collect(Collectors.collectingAndThen(Collectors
