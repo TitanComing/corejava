@@ -1,4 +1,4 @@
-package zonedtimes;
+package zonedTimes;
 
 /**
  * @version 1.0 2016-05-10
